@@ -5,7 +5,7 @@ import '../index.css'
 export default function Main() {
   return (
 
-      <Aside className="bg-black/10"/>
+      <Aside className=""/>
       
   
   );
