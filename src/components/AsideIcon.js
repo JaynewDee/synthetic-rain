@@ -1,10 +1,9 @@
 import React from 'react';
-import {IconName} from 'react-icons/fi'
+
 const AsideIcon = ({icon}) => (
-   <div className="sidebar-icon">
+   <div className="m-auto border-y-2 p-3 rounded-2xl hover:animate-bounce">
       {icon}
    </div>
 )
 
-
-export default AsideIcon
+export default AsideIcon;

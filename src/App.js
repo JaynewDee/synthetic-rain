@@ -5,7 +5,9 @@ import './build.css'
 
 export default function App() {
   return (
-   <Main className=""></Main>
+      <div className="">
+         <Main className=""></Main>
+      </div>
   );
 }
 
