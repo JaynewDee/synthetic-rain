@@ -1,9 +1,11 @@
-import './App.css';
+import React from 'react';
+import Main from './pages/Main'
+import './build.css'
 
-function App() {
+
+export default function App() {
   return (
-     <div>Hello!</div>
+   <Main className=""></Main>
   );
 }
 
-export default App;
